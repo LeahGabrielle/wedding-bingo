@@ -1,5 +1,4 @@
 <template>
-   <h1>It's bingo time my dudes</h1>
    <div class="sheet">
       <div class="tile" v-for="i in 12" :key="i">
          <BingoTile v-bind:text="pickTileText()"></BingoTile>
@@ -66,5 +65,8 @@ import BingoTile from './BingoTile.vue'
 }
 .tile{
    width: 20%;
+}
+body{
+background-color:lightblue;
 }
 </style>

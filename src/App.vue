@@ -1,6 +1,9 @@
 <template>
   <div id="app">
+  <h1>Virtual Bachelorette Bingo</h1>
+  <h2>Have a drink when...</h2>
     <BingoSheet/>
+    <h2>finish your drink when you finish a row!</h2>
   </div>
 </template>
 
