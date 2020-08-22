@@ -3,8 +3,8 @@
       <div class="tile" v-for="i in 12" :key="i">
          <BingoTile v-bind:text="pickTileText()"></BingoTile>
       </div>
-      <div class="tile">
-         <BingoTile v-bind:text="'ring_img'"></BingoTile>
+      <div class="tile ring">
+         <BingoTile v-bind:text="'text'"></BingoTile>
       </div>
       <div class="tile" v-for="i in 12" :key="i">
          <BingoTile v-bind:text="pickTileText()"></BingoTile>
@@ -62,11 +62,22 @@ import BingoTile from './BingoTile.vue'
 .sheet{
    display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   padding: 0 20%;
 }
 .tile{
-   width: 20%;
+   border: 1px solid black;
+   height: 130px;
 }
 body{
-background-color:lightblue;
+  background-image: url("../assets/pink-sparkles.gif");
+}
+.ring{
+   background-image: url("../assets/ring.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.ring p {
+   display:none;
 }
 </style>
