@@ -28,7 +28,7 @@
    transform: translate(-50%, -50%);
    top: 50%;
    left: 50%;
-   opacity: 40%;
+   opacity: 0.4;
 }
 p{
    position: absolute;

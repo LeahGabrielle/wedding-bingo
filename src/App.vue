@@ -37,6 +37,6 @@ h2{
 }
 p{
    font-family: 'Staatliches', serif;
-   font-size:20px;
+   font-size:16px;
 }
 </style>
