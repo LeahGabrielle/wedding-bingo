@@ -33,6 +33,10 @@
 p{
    position: absolute;
    z-index: 2;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   margin: auto;
 }
 .tileContainer{
    height: inherit;

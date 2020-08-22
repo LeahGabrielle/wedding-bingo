@@ -35,4 +35,8 @@ h2{
    font-family: 'Staatliches', serif;
    font-size:36px;
 }
+p{
+   font-family: 'Staatliches', serif;
+   font-size:20px;
+}
 </style>
