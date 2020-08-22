@@ -67,6 +67,8 @@ import BingoTile from './BingoTile.vue'
 .tile{
    border: 1px solid black;
    height: 130px;
+   position: relative;
+
 }
 body{
   background-image: url("../assets/pink-sparkles.gif");
@@ -76,6 +78,7 @@ body{
    background-size: contain;
    background-repeat: no-repeat;
    background-position: center;
+
 }
 .ring p {
    display:none;
