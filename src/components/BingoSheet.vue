@@ -69,11 +69,11 @@ import BingoTile from './BingoTile.vue'
 .sheet{
    display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   padding: 0 20%;
+   padding: 0 5%;
 }
 .tile{
    border: 1px solid black;
-   height: 130px;
+   height: 200px;
    position: relative;
 
 }
